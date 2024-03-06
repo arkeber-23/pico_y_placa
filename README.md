@@ -11,7 +11,13 @@ Antes de ejecutar la aplicación, asegúrate de tener Node.js y npm instalados e
    Ejecuta el siguiente comando para instalar las  dependencias necesarias:
 
    ```bash
-    npm install
+    npm install o npm i
+   ```
+**Ejecutar el proyecto***
+ ```bash
+    npm run dev
+   ```
+
 
 
 
