@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/style.css")
+        title #{title}
+    body 
+        div(class='container')
+            h1 #{title}
+                div(class='container-inputs') 
+                    label(for="number") NUMERO DE PLACA:
+                    input(type="text", id="number"  name="number")
+
+                div(class='container-inputs')  
+                    label(for="week") DIA DE SEMANA:
+                    input(type="text", id="week" name="week")
+                input(type="button", id="circulaBtn", value='Circula', onclick='enviarFormulario()')
+        script(src="js/index.js")       
